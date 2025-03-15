@@ -1,1 +1,12 @@
 <h1>Hello world</h1>
+
+<nav>
+    <ul>
+        <li><button mat-flat-button routerLink="/">Home</button></li>
+        <li><button mat-raised-button routerLink="/test1">Test 1</button></li>
+        <li><button mat-stroked-button routerLink="/test2">Test 2</button></li>
+        <li><button mat-fab extended routerLink="/error"><mat-icon>block</mat-icon>Error</button></li>
+    </ul>
+</nav>
+
+<router-outlet />
